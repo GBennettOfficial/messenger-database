@@ -1,0 +1,1 @@
+﻿CREATE UNIQUE INDEX IX_Users_UserCode ON dbo.Users (UserCode)
