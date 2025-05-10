@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6bc0a983-83b9-4c24-aeb7-5862c1873e7d" ChangeDateTime="05/10/2025 07:48:19">
+    <Property Name="ElementName" Value="[dbo].[FriendRequests].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FriendRequests]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AcceptStatus" />
+  </Operation>
+</Operations>

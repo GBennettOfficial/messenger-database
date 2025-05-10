@@ -69,11 +69,21 @@
     <Build Include="Indexes\IX_Users_Username.sql" />
     <Build Include="StoredProcedures\usp_Create_User.sql" />
     <Build Include="StoredProcedures\usp_Update_User.sql" />
+    <Build Include="StoredProcedures\usp_Read_Friends.sql" />
+    <Build Include="StoredProcedures\usp_Read_FriendRequests.sql" />
+    <Build Include="StoredProcedures\usp_Read_GroupRequests.sql" />
+    <Build Include="StoredProcedures\usp_Read_Groups.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\FriendRequests.sql" />
     <Build Include="Tables\GroupLinks.sql" />
     <Build Include="Tables\GroupRequests.sql" />
     <Build Include="Tables\Groups.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Messenger.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Messenger.Database.refactorlog" />
   </ItemGroup>
 </Project>
